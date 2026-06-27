@@ -168,54 +168,6 @@ Performed using Cadence Tempus to verify:
 
 ---
 
-# 📊 ASIC Results
-
-The repository includes screenshots and reports for:
-
-* RTL Schematic
-* Floorplan
-* Cell Placement
-* Clock Tree Synthesis
-* Routing
-* Final Layout
-* Timing Reports
-* Simulation Waveforms
-
----
-
-# 📂 Repository Structure
-
-```text
-RTL/
-├── top.v
-├── i2c_master.v
-├── clkgen_200kHz.v
-├── temp_converter.v
-├── multiply_by_9.v
-├── divide_by_5.v
-├── add_32.v
-└── seg7.v
-
-Simulation/
-├── Testbench
-└── Waveforms
-
-FPGA/
-├── Constraints
-└── Hardware Images
-
-ASIC/
-├── RTL Schematic
-├── Floorplan
-├── Placement
-├── CTS
-├── Routing
-├── Final Layout
-└── Timing Reports
-```
-
----
-
 # 🚀 Applications
 
 * Digital Temperature Monitoring
